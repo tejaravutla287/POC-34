@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: 'acr-service-connection'
+  dockerRegistryServiceConnection: 'acr-docker-connection'
   imageRepository: 'poc34-node-app'
   containerRegistry: 'acrpoc34.azurecr.io' 
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
